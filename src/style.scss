@@ -1,12 +1,22 @@
+:root {
+    --mainBg: salmon;
+}
+
+
 $light-text: moccasin;
 
 body {
     background-color: salmon;
     color: $light-text;
-
-
-h1 {
-    font-size: 68px;
-    text-align: center;
 }
+
+.container {
+    padding: 1rem;
+    display: flex;
+    background: linear-gradient(to top, black, white);
+
+    h1 {
+        font-size: 68px;
+        text-align: center;
+    }
 }
