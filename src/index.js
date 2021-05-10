@@ -1,6 +1,6 @@
 import getClasses from "./getClasses";
-import "./style.scss";
-import "./style.css";
+import "./styles/index.css";
+import "./styles/index.scss";
 
 getClasses();
 

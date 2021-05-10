@@ -1,13 +1,10 @@
-:root {
-    --mainBg: salmon;
-}
+@use "variables";
 
 
-$light-text: moccasin;
 
 body {
-    background-color: salmon;
-    color: $light-text;
+    background-color: rgb(33, 83, 23);
+    color: variables.$light-text;
 }
 
 .container {
@@ -16,7 +13,7 @@ body {
     background: linear-gradient(to top, black, white);
 
     h1 {
-        font-size: 68px;
+        font-size: 68px; 
         text-align: center;
     }
 }
